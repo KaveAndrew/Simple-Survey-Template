@@ -7,4 +7,4 @@ Link: https://kaveandrew.github.io/Simple-Survey-Template/
 <br>
 <br>
 <br>
-![screen](img/survey_screen.png)
+![screen](survey_screen.png)
