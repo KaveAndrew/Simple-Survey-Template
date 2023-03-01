@@ -118,6 +118,11 @@ input {
         border-radius: 0;
     }
     main {
-        padding: 0;
+    min-width: 576px;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+    textarea {
+        width: 10em;
     }
 }
