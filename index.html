@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1 id="title">Welcome!</h1>
+            <p id="description">Please, enter information about yourself:</p>
+            <form id="survey-form">
+                <section class="mainInf">
+                    <label id="name-label" for="name">First name:&nbsp&nbsp
+                        <input class="input" id="name" type="text" placeholder="Andrew" required>
+                    </label>
+                    <label id="last-name-label" for="name">Last name:&nbsp&nbsp
+                        <input id="last-name" type="text" placeholder="Kave" required>
+                    </label>
+                    <label id="email-label" for="email">
+                        Email:&nbsp&nbsp
+                    <input id="email" type="email" placeholder="example@gmail.com" required></label>
+                    <label id="number-label" for="number">
+                        Age:&nbsp&nbsp
+                    <input id="number" type="number" min="0" max="100" placeholder="18" required></label>
+                </section>
+                <section class="otherInf">
+                    <label>Who you are?&nbsp&nbsp&nbsp&nbsp
+                        <label class="inline-block"><input type="radio" value="Student" name="radio-button"> Student</label>
+                        <label class="inline-block"><input type="radio" value="Worker" name="radio-button"> Worker</label>
+                        <label class="inline-block"><input type="radio" value="Jobless" name="radio-button"> Jobless</label>
+                        <label class="inline-block"><input type="radio" value="Other" name="radio-button"> Other</label>  
+                    </label>
+                    <label>Your Favoarite Coffee:&nbsp&nbsp
+                        <select name="select" id="dropdown">
+                            <option>Latte</option>
+                            <option>Cappuccino</option>
+                            <option>Americano</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                    <label>Do you like this food?&nbsp&nbsp&nbsp&nbsp
+                        <label class="inline-block"><input type="checkbox" value="pizza" name="checkbox-button"> Pizza</label>
+                        &nbsp&nbsp<label class="inline-block"><input type="checkbox" value="donut" name="checkbox-button"> Donut</label>
+                        &nbsp&nbsp<label class="inline-block"><input type="checkbox" value="cheesecake" name="checkbox-button"> Cheesecake</label>
+                        &nbsp&nbsp<label class="inline-block"><input type="checkbox" value="croissant" name="checkbox-button"> Croissant</label>
+                    </label>
+                </section>
+                <label>Write about yourself:
+                    <textarea class="textarea" rows="10" cols="30" placeholder="Hello, my name is Andrew :)"></textarea>
+                </label>
+                <button class="submitBut" id="submit" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
